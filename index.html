@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>eCommerce </title>
+</head>
+<body>
+  <header>
+    <h1>eCommerce</h1>
+    <button id="viewCartBtn">Tu carrito</button>
+  </header>
+  
+  <main>
+    <div class="product">
+      <img src="./media/celular.jpeg" alt="celuklar">
+      <h2>Celular</h2>
+      <p>Price: $100</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </div>
+    
+    <div class="product">
+      <img src="./media/pcpersonal.jpeg" alt="Pc">
+      <h2>Notebook</h2>
+      <p>Price: $20</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="./media/consolanueva.pjeg.png" alt="xbox">
+        <h2>xBox one</h2>
+        <p>Price: $30</p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+  </main>
+
+  <div id="cartOverlay">
+    <div id="cart">
+      <h2>Carrito</h2>
+      <ul id="cartItems"></ul>
+      <button id="closeCartBtn">Cerrar carrito</button>
+    </div>
+  </div>
+
+  <button id="clearCartBtn">Vaciar Carrito</button>
+
+  <script src="compra.js"></script>
+</body>
+</html>
